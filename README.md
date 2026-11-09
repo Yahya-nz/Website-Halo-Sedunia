@@ -6,6 +6,8 @@ Pas website dibuka ada animasi pembuka dulu. Kata halonya ganti-ganti bahasa den
 
 Websitenya statis, cuma pakai HTML, CSS, sama JavaScript biasa tanpa framework.
 
+Link website: https://yahya-nz.github.io/Website-Halo-Sedunia/
+
 ## Tampilan
 
 **Animasi pembuka**
