@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Halo Sedunia</title>
+  <meta name="description" content="Kata halo dari 49 bahasa, ditulis pakai aksara aslinya masing-masing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..700&amp;family=Geist+Mono:wght@400..500&amp;family=Noto+Sans:wght@400..600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese:wght@400..600&amp;family=Noto+Sans+Javanese:wght@400..600&amp;family=Noto+Sans+Balinese:wght@400..600&amp;family=Noto+Sans+Khmer:wght@400..600&amp;family=Noto+Sans+Thai:wght@400..600&amp;family=Noto+Sans+Lao:wght@400..600&amp;family=Noto+Sans+Myanmar:wght@400..600&amp;family=Noto+Sans+Sinhala:wght@400..600&amp;family=Noto+Sans+Tamil:wght@400..600&amp;family=Noto+Sans+Malayalam:wght@400..600&amp;family=Noto+Sans+Kannada:wght@400..600&amp;family=Noto+Sans+Telugu:wght@400..600&amp;display=block">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400..600&amp;family=Noto+Sans+Ol+Chiki:wght@400..600&amp;family=Noto+Sans+Bengali:wght@400..600&amp;family=Noto+Sans+Devanagari:wght@400..600&amp;family=Noto+Sans+Gujarati:wght@400..600&amp;family=Noto+Sans+Gurmukhi:wght@400..600&amp;family=Noto+Nastaliq+Urdu:wght@400..600&amp;family=Noto+Serif+Tibetan:wght@400..600&amp;display=block">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400..600&amp;family=Noto+Sans+TC:wght@400..600&amp;family=Noto+Sans+JP:wght@400..600&amp;family=Noto+Sans+KR:wght@400..600&amp;family=Noto+Sans+Arabic:wght@400..600&amp;family=Noto+Sans+Syriac:wght@400..600&amp;family=Noto+Sans+Hebrew:wght@400..600&amp;family=Noto+Sans+Ethiopic:wght@400..600&amp;family=Noto+Sans+Tifinagh&amp;family=Noto+Sans+Armenian:wght@400..600&amp;family=Noto+Sans+Georgian:wght@400..600&amp;family=Noto+Sans+Cherokee:wght@400..600&amp;family=Noto+Sans+Canadian+Aboriginal:wght@400..600&amp;display=block">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <svg class="fx" aria-hidden="true" focusable="false">
+    <filter id="mb-reel" x="-5%" y="-40%" width="110%" height="180%" color-interpolation-filters="sRGB"><feGaussianBlur id="mb-reel-n" stdDeviation="0 0.01"/></filter>
+    <filter id="mb-lab" x="-5%" y="-40%" width="110%" height="180%" color-interpolation-filters="sRGB"><feGaussianBlur id="mb-lab-n" stdDeviation="0 0.01"/></filter>
+    <filter id="mb-hero" x="-5%" y="-40%" width="110%" height="180%" color-interpolation-filters="sRGB"><feGaussianBlur id="mb-hero-n" stdDeviation="0 0.01"/></filter>
+  </svg>
+
+  <div class="intro" id="intro">
+    <div class="shutters" id="shutters" aria-hidden="true"></div>
+    <div class="intro-ui" id="intro-ui">
+      <div class="intro-fx" id="intro-fx" aria-hidden="true"><div class="grain" id="grain"></div></div>
+      <div class="cam" id="cam" aria-hidden="true">
+        <div class="cam-in" id="cam-in">
+          <div class="reel-win" id="reel-win"><div class="reel" id="reel"></div></div>
+          <div class="lab-win" id="lab-win"><div class="lab-reel" id="lab-reel"></div></div>
+        </div>
+      </div>
+      <div class="intro-foot" id="intro-foot" aria-hidden="true">
+        <span class="if-brand">Halo Sedunia</span>
+        <span class="if-pct"><span id="ipct">0</span>%</span>
+      </div>
+      <div class="intro-bar" id="intro-bar" aria-hidden="true"><span id="ibar"></span></div>
+      <button class="skip" id="skip" type="button">Lewati</button>
+    </div>
+  </div>
+
+  <div class="page" id="page" lang="id">
+    <header class="gutter" id="nav">
+      <div class="wrap nav">
+        <div class="brand"><i aria-hidden="true"></i>Halo Sedunia</div>
+        <div class="nav-r">
+          <span class="stat" id="stat"></span>
+          <button class="btn" id="replay" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M4.5 4.5v4h4"/></svg>
+            Putar ulang pembuka
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="gutter">
+        <div class="wrap hero">
+          <p class="eyebrow" id="eyebrow">Halo dalam aksara aslinya</p>
+          <h1 class="headline" id="headline" aria-label="Halo, dunia.">
+            <span class="win" id="win" aria-hidden="true"></span>
+            <span class="line" aria-hidden="true"><span class="dunia" id="dunia">dunia.</span></span>
+          </h1>
+          <div class="hero-foot" id="hero-foot">
+            <p class="lead" id="lead"></p>
+            <div class="now">
+              <span class="now-text" id="now-text"></span>
+              <span class="count" id="count"></span>
+              <div class="ctrl">
+                <button class="round" id="prev" type="button" aria-label="Sapaan sebelumnya">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6l-6 6 6 6"/></svg>
+                </button>
+                <button class="round" id="pause" type="button" aria-label="Jeda" aria-pressed="false">
+                  <svg id="i-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="7" y="6" width="3.2" height="12" rx="1"/><rect x="13.8" y="6" width="3.2" height="12" rx="1"/></svg>
+                  <svg id="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" hidden><path d="M8.5 6.2v11.6a.8.8 0 0 0 1.2.7l9.2-5.8a.8.8 0 0 0 0-1.4L9.7 5.5a.8.8 0 0 0-1.2.7z"/></svg>
+                </button>
+                <button class="round" id="next" type="button" aria-label="Sapaan berikutnya">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 6l6 6-6 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gutter" aria-labelledby="index-title">
+        <div class="wrap index">
+          <div class="index-head">
+            <h2 id="index-title"></h2>
+            <p>Dikelompokkan per wilayah. Klik salah satu untuk memasangnya di judul atas.</p>
+          </div>
+          <div id="regions"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="gutter">
+      <div class="wrap foot">
+        <p>Huruf Latin di halaman ini memakai Plus Jakarta Sans, font karya desainer Indonesia. Aksara lainnya memakai keluarga Noto. Nama Noto berasal dari “no tofu”, julukan untuk kotak kosong yang muncul kalau font tidak punya hurufnya.</p>
+        <span>Tombol ← → untuk pindah sapaan</span>
+      </div>
+    </footer>
+
+    <div class="measure-wrap" aria-hidden="true"><span class="measure" id="measure"></span></div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
